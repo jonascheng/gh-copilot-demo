@@ -2,8 +2,8 @@
 # Build a streamlit app to display Github Repos by searching for
 # a query and preferred language
 # 1. User inputs a query string and preferred language
-# 2. App displays a table of the top 100 results
-# 3. App displays a two dimensional scatter plot of the top 100 results,
+# 2. App displays a table of the top 10 results
+# 3. App displays a two dimensional scatter plot of the top 10 results,
 #     one dimension is the number of stars and the other is the number of forks
 
 # Import library
@@ -24,7 +24,7 @@
 
 # Create function to plot repo info by visualization library altair
 
-# Create function to display the top 100 results info as well as scatter plot of the top 100 results
+# Create function to display the top 10 results info as well as scatter plot of the top 10 results
 
 # Set page footer to indicate this is built with Github Copilot
 ```
